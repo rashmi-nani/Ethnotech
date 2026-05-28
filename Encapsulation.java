@@ -1,40 +1,42 @@
-/*class student
-{
-	private int id;
-	public void setId(int id)
+
+
+public class Encapsulation {
+	/*class student
 	{
-		this.id=id;
+		private int id;
+		public void setId(int id)
+		{
+			this.id=id;
+		}
+		public int getId()
+		{
+			return id;
+		}
 	}
-	public int getId()
+	public class id
 	{
-		return id;
+	public static void main(String args[])
+	{
+		student s=new student();
+		s.setId(101);
+		System.out.print(s.getId());
 	}
-}
-public class id
-{
-public static void main(String args[])
-{
-	student s=new student();
-	s.setId(101);
-	System.out.print(s.getId());
-}
-}*/
-class Balance
-{	
-	private int balance;
-	public void setbalance(int balance)
+	}*/
+		private int balance;
+		public void setbalance(int balance)
+		{
+			this.balance=balance;
+		}
+		public int getbalance()
+		{
+			return balance;
+		}
+
+	public static void main(String args[])
 	{
-		this.balance=balance;
+		Encapsulation s=new Encapsulation();
+		s.setbalance(5000);
+		System.out.print(s.getbalance());
 	}
-	public int getbalance()
-	{
-		return balance;
 	}
 
-public static void main(String args[])
-{
-	Balance s=new Balance();
-	s.setbalance(5000);
-	System.out.print(s.getbalance());
-}
-}

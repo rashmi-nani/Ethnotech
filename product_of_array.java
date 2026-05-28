@@ -1,6 +1,6 @@
-package util;
+
 import java.util.*;
-public class product {
+public class product_of_array {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

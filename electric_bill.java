@@ -1,6 +1,6 @@
-package util;
+
 import java.util.*;
-public class electric_bill {
+public class Electric_bill {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
