@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import java.util.*;
 public class product_of_array {
